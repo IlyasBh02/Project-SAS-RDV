@@ -49,7 +49,7 @@ void Ajouter_Reserv() {       // P.1.
         printf("Veuillez entrer l'age : ");
         scanf("%d", &R[NV].age);
         if (R[NV].age < 12 || R[NV].age > 85) {
-            printf("Age invalid. L'age doit etre entre 18 et 85 ans. \n"); 
+            printf("Age invalid. L'age doit etre entre 12 et 85 ans. \n"); 
         return ;
         }
         
