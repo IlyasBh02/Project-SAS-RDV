@@ -19,9 +19,9 @@ void rservation_defaut() {
     const char noms[][20] = {"Souli", "Binhoud", "Sayli", "Bendira", "Agori", "Sparo", "Silout", "Birou", "Racher", "Hanma"};
     const char prenoms[][20] = {"Ahmed", "Amine", "Ilyas", "Ikram", "Hamza", "Azzedin", "Mouad", "Amina", "Jack", "Yuri"};
     const char tele[][20] = {"0123456789", "0234567890", "0345678901", "0456789012", "0567890123", "0678901234", "0789012345", "0890123456", "0901234567", "0912345678"};
-    const int ages[] = {25, 30, 18, 40, 22, 29, 35, 42, 60, 15};
+    const int ages[] = {25, 30, 18, 40, 22, 59, 35, 42, 60, 15};
     const char statuts[][20] = {"valide", "reporte", "annule", "traite", "valide", "reporte", "valide", "annule", "traite", "valide"};
-    const char dates[][20] = {"01/01/2032", "02/01/2023", "03/01/2023", "29/11/2024", "05/01/2023", "06/01/2023", "07/01/2023", "08/01/2023", "09/01/2023", "10/01/2025"};
+    const char dates[][20] = {"04/12/2024", "24/12/2024", "11/11/2024", "30/12/2024", "05/01/2025", "10/01/2025", "03/12/2024", "08/01/2025", "09/01/2025", "26/02/2025"};
 
     for (int i = 0; i < 10; i++) {
         if (NV < 200) {
@@ -49,7 +49,7 @@ void Ajouter_Reserv() {       // P.1.
         printf("Veuillez entrer l'age : ");
         scanf("%d", &R[NV].age);
         if (R[NV].age < 12 || R[NV].age > 85) {
-            printf("Age invalid. L'age doit etre entre 12 et 85 ans. \n"); 
+            printf("Age invalid. L'age doit etre entre 18 et 85 ans. \n"); 
         return ;
         }
         
